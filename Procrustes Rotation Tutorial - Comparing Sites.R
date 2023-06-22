@@ -1,10 +1,16 @@
+#Procrustes Analysis Tutorial - Comparing Sites
+#Author: Nicole Regimbal - Just One Bird's Opinion 
+#Date: June 22, 2023
 
-library(ggplot2) #load in the needed libraries
+#Load in necessary libraries
+#If these libraries are not yet installed, first use the function install.packages()
+library(ggplot2)
 library(vegan)
 
-getwd()
-setwd("C:/Users/19082/OneDrive") #set working directory
-dir()
+#Set your working directory
+getwd() #This tells R that you want to get a new working directory
+setwd("Insert your path here") #This tells R where to find that new directory
+dir() #This tells R to retrieve this new directory to use 
 
 #Comparing two PCA's 
 #Comparing inventory/mortality for same species at the same sites
